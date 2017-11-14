@@ -33,6 +33,8 @@ def genre_count
   else genre_count[genre] = 1
   end
 end
+genre_count
+end
 
 def artist_count
   artist_count = {}
