@@ -16,7 +16,7 @@ def self.count
   return @@count
 end
 
-def genres
+def self.genres
   return @@genres
 end
 
