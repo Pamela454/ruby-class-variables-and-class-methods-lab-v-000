@@ -35,7 +35,6 @@ def genre_count
 end
 genre_count
 end
-end
 
 def artist_count
   artist_count = {}
