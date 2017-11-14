@@ -25,4 +25,6 @@ def self.artists
   return @@artists.uniq
 end
 
+def count
+end
 end
