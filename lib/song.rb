@@ -26,5 +26,6 @@ def self.artists
 end
 
 def count
+  
 end
 end
