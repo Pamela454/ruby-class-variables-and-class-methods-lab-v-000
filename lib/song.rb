@@ -15,4 +15,7 @@ def count
   return @@count
 end
 
+def genres
+end
+
 end
