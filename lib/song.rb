@@ -1,2 +1,4 @@
-class Song(name, artist, genre)
+class Song
+  def initialize(name, artist, genre)
+  end
 end
