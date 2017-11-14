@@ -22,7 +22,7 @@ def self.genres
 end
 
 def self.artists
-  return @@artists unless @@artists.include?(artist)
+  return @@artists.uniq
 end
 
 end
