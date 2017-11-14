@@ -18,7 +18,7 @@ def self.count
 end
 
 def self.genres
-  return @@genres unless @@genres.include?(genre)
+  return @@genres.uniq
 end
 
 def self.artists
