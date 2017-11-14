@@ -9,7 +9,7 @@ def initialize(name, artist, genre)
   @artist = artist
   @genre = genre
   @@count = @@count + 1
-  @@genres = @@genres << genre
+  @@genres = @@genres << genre unless @@genres.include?(genre)
 end
 
 def count
