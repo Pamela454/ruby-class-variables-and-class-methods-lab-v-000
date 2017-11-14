@@ -8,5 +8,5 @@ def initialize(name, artist, genre)
 end
 
   @@count = 0
-
+  @@artists = 
 end
