@@ -21,6 +21,7 @@ def self.genres
 end
 
 def self.artists
+  return @@artists
 end
 
 end
